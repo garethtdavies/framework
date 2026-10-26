@@ -8,6 +8,9 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 
 ### Changed
 
+- Upgraded to o1js 3.1.0 for the Mesa hard fork. Mesa has 32 zkApp state fields
+  and transaction version 4, so settlement contracts deployed before the fork
+  need new verification keys
 - Upgraded to o1js 2.15.0 (native prover release) [#517](https://github.com/proto-kit/framework/pull/517)
 
 ## 0.2.0
